@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Style Guide Template</title>
     <link href="css/main.css" rel="stylesheet">
       <link href="css/grid.css" rel="stylesheet">
@@ -375,31 +376,34 @@
 
         <h4>Rendered element:</h4>
 
-        <div class="paymentForm">
-          <h4>Your Information:</h4>
 
-          <div class="userInfo">
-            <label>Name:</label>
-            <input type="text" name="name" >
 
-          </div>
+        <div class="row-payment">
+        <div class="container-payment">
+          <h2>Payment</h2>
+          <label class="textinput-label">Accepted Cards</label>
+           <div class="icon-container">
+             <i class="fa fa-cc-visa" style="color:navy;"></i>
+             <i class="fa fa-cc-amex" style="color:blue;"></i>
+             <i class="fa fa-cc-mastercard" style="color:red;"></i>
+             <i class="fa fa-cc-discover" style="color:orange;"></i>
+           </div><br>
 
-          <div class="userInfo">
-          <label>Address:</label>
-          <input type="text" name="address" >
+          <label class="textinput-label">Name on Card</label>
+          <input type="text" class="input-text"  name="name_on_card" placeholder="FirstName LastName"><br>
+
+          <label class="textinput-label">Card number:</label>
+          <input type="text" class="input-text" name="card_number" placeholder="****-****-****-****"><br>
+
+          <label class="textinput-label">Exp Date</label>
+          <input type="text" class="input-text" name="exp_date" placeholder="Month-Year"><br>
+
+          <label class="textinput-label">CVV</label>
+          <input type="text" class="input-text" name="cvv" placeholder="***"><br>
+
+          <a class="submit_btn" href="#">Continue to checkout</a>
         </div>
-
-          <div class="paymentWay">
-            <h4>Payment method:</h4>
-            <input type="radio" name="product 1" value="Visa">
-            <label>Visa</label>
-            <input type="radio" name="product 2" value="Debit">
-            <label>Debit</label>
-            <label>CardNumber:</label>
-            <input type="text" name="text" >
-          </div>
-
-        </div>
+      </div>
 
       </section>
 
