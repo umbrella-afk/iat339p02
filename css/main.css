@@ -133,6 +133,12 @@ body {
   display: inline-block;
 }
 
+.textInput_label input:hover{
+  color: #808080;
+  background: #EEEEEE;
+  transition: 0.3s;
+}
+
 .textInput_label label{
   color:#626262;
 }
