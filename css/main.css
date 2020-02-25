@@ -22,6 +22,7 @@ header h1{
   width: 100%;
   height: 100vh;
   background-image: url('../img/bg.jpg');
+
 }
 .tophead{
   width: 100%;
@@ -31,6 +32,7 @@ header h1{
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  
 }
 
 .brandlogo{
@@ -149,6 +151,20 @@ body {
   margin-top: 60px;
   margin-bottom: 15px;
 }
+.product_seemore{
+  padding-top: 20px;
+  text-align: right;
+}
+.product_seemore a{
+  color: #80745D;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.product_seemore a:hover{
+  color: #CDB76E;
+}
+
 
 .footer-div{
   width: 100%;
@@ -283,9 +299,9 @@ body {
 
 .element {
   padding: 2rem;
-  border-top-width: 0.15rem;
-  border-top-style: solid;
-  border-top-color: darkgray;
+  border-bottom-width: 0.15rem;
+  border-bottom-style: solid;
+  border-bottom-color: darkgray;
   text-align: center;
 }
 
