@@ -32,11 +32,11 @@ header h1{
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  
+
 }
 
 .brandlogo{
-  color: #fff;
+  color: #D4D4D4;
   font-size: 2.1rem;
   padding-left: 50px;
 }
@@ -44,7 +44,7 @@ header h1{
   font-size: 30px;
   cursor: pointer;
   margin-right: 50px;
-  color: #fff;
+  color: #D4D4D4;
 }
 
 .container{
@@ -708,7 +708,7 @@ input[type=text] {
 .single-product-left{
   /*border:1px solid red;*/
   width:55%;
-  
+
 }
 
 #product-image{
@@ -720,7 +720,7 @@ input[type=text] {
  /* border:1px solid red;*/
   width:45%;
   max-width: 500px;
-  
+
 }
 
 .product-description {
@@ -771,7 +771,7 @@ input[type=text] {
 .color-choose{
   padding-top: 20px;
   padding-bottom: 20px;
-  
+
   max-width: 500px;
 }
 
