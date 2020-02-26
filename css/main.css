@@ -685,3 +685,143 @@ input[type=text] {
 .input-text{
   border-radius: 0.35em;
 }
+
+/*
+  PRODUCT-ITEM -------------------
+*/
+
+.single-product{
+  /*max-width:1200px;*/
+  margin:30px;
+  display:flex;
+  justify-content: space-evenly;
+  /*border: 1px red solid;*/
+}
+
+.single-product-left img{
+  width:100%;
+  left: 0;
+  top: 0;
+  transition: all 0.3s ease;
+}
+
+.single-product-left{
+  /*border:1px solid red;*/
+  width:55%;
+  
+}
+
+#product-image{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.single-product-right{
+  padding: 70px 30px 30px 30px;
+ /* border:1px solid red;*/
+  width:45%;
+  max-width: 500px;
+  
+}
+
+.product-description {
+  border-bottom: 1px solid #CDB76E;
+  margin-bottom: 20px;
+  max-width: 500px;
+}
+
+
+.product-description h1 {
+ color: #989184;
+}
+
+.product-description p {
+  font-size: 16px;
+  font-weight: 300;
+  color: /*#86939E*/darkgray;
+  line-height: 24px;
+}
+
+.product-color{
+  border-bottom: 1px solid #CDB76E;
+  margin-bottom: 20px;
+}
+
+.product-color a {
+  color: #358ED7;
+  text-decoration: none;
+  font-size: 12px;
+  position: relative;
+  margin: 10px 0;
+  display: inline-block;
+}
+
+.product-color a:before {
+  content: "?";
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 2px solid rgba(53, 142, 215, 0.5);
+  display: inline-block;
+  text-align: center;
+  line-height: 16px;
+  opacity: 0.5;
+  margin-right: 5px;
+}
+
+.color-choose{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+  max-width: 500px;
+}
+
+.color-choose>button{
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  cursor: pointer;
+  border:2px solid white;
+  box-shadow: 0 2px 3px #ddd;
+  outline:none;
+}
+
+.red{
+  background-color:#9D2933;
+}
+
+
+.black{
+  background-color:black;
+}
+
+.brown{
+  background-color:#7C4B00;
+}
+
+.golden{
+  background-color:#EACD76;
+}
+
+
+.product-price p{
+  color: grey;
+  font-size: 22px;
+}
+
+@media screen and (max-width:1200px){
+  .single-product{
+    flex-direction: column;
+  }
+
+  .single-product-left{
+    /*border:1px solid red;*/
+    width:95%;
+    margin:auto;
+  }
+
+  .single-product-right{
+    /*border:1px solid red;*/
+    width:95%;
+    margin:auto;
+  }
+}

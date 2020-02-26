@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Umbrellla Funiture</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/grids.css" rel="stylesheet">
+      <!-- the link for mune icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0="
+    crossorigin="anonymous" />
+
+</head>
+
+ <header>
+    <div class="tophead">
+        <div class="brandlogo">
+          UBLA
+        </div>
+
+        <div class="">
+          <span class="menulines" onclick="openNav()">&#9776;</span>
+
+        </div>
+    </div>
+  </header>
+<body>
+	<nav class="block navigation" id="mySidenav" >
+
+            <!-- close btn -->
+            <a href="javascript:void(0)" class="closebtn"
+      onclick="closeNav()"> &times;
+      <!-- main menu -->
+            <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+            <a href="checkout.html"><i class="fa fa-cubes" aria-hidden="true"></i> Product</a>
+            <a href="#interactive_elements"><i class="fa fa-credit-card" aria-hidden="true"></i> Checkout</a>
+            <a href="#text_elements"><i class="fa fa-phone-square" aria-hidden="true"></i> Contact Us</a>
+            <a href="#combined_elements"><i class="fa fa-question-circle" aria-hidden="true"></i> About</a>
+
+            <!-- <a href="#citations"> Citations</a> -->
+
+      </nav>
+
+      <script>
+    const openNav = () => {
+      document.getElementById('mySidenav').style.width = "250px"
+    }
+
+    const closeNav = () => {
+      document.getElementById('mySidenav').style.width = "0"
+    }
+
+    function changePic(fileName){
+        document.querySelector("#product-image").src="img/" + fileName
+    }
+
+    </script>
+
+
+    <section id="overview">
+      <p>YIGI WOLI WOLI GIAOGIAO DAJIAYIQIGIAOQILAI </p>
+    </section>
+
+    <div class="single-product">
+    	<!-- Left Column / Lights Image -->
+      <div class="single-product-left">
+        <img src="img/f3-red.jpg" alt="" id="product-image">
+      </div>
+      <div class="single-product-right">
+      	<!-- Product Description -->
+        <div class="product-description">
+        	<span>Lights</span>
+        	<h1>The Emperor Light</h1>
+        	<p>This oversized light was inspired by a made-believe folklore story of an Asian emperor and a beautiful nightingale…</p>
+
+        </div>
+
+        <div class="product-color">
+            <span>Color</span>
+
+            <div class="color-choose">
+              <button class="red" onclick="changePic('f3-red.jpg')"></button>
+              <button class="black" onclick="changePic('f3-black.jpg')"></button>
+            </div>
+            <a href="#">Help</a>
+
+          </div>
+
+        <div class="product-price">
+        	<p>Price: 150 $</p>
+        	<button class="cardBtn" type="button" name="button">Add to cart</button>
+        </div>
+      	
+      </div>
+
+    	
+    </div>
+    <footer>
+      <div class="footer-div">
+        <div class="footer-icons">
+          <ul>
+            <li><a href="https://www.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/"><i class="fa fa-twitter-square" aria-hidden="true"></i></i></a></li>
+            <li><a href="https://www.google.ca/"><i class="fa fa-google-plus-square" aria-hidden="true"></i></i></a></li>
+          </ul>
+        </div>
+
+        <div class="footer-text">
+            <p>TALK: +(1)778-682-xxxx
+            </p>
+            <p>MEET: 13450 102 Ave, Surrry, blockquote
+            </p>
+            <p>Design group: YIGIWOLIGIAO</p>
+        </div>
+
+      </div>
+    </footer>
+
+
+</body>
+</html>
