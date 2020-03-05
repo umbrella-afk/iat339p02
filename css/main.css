@@ -141,14 +141,21 @@ body {
   color: #fff;
   font-size: 2.1rem;
   position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
-
 #NewArrival h2{
+  color: Black;
+  font-size: 3rem;
+  text-align:center;
+  margin-top: 60px;
+  margin-bottom: 15px;
+}
+
+#big_title p{
   color: Black;
   font-size: 3rem;
   text-align:center;
@@ -228,34 +235,15 @@ display: flex;
 
 .contact-us textarea{
   width: 40em;
+  border: 1px solid #ccc;
+  border-radius: 3px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.contact-us textarea:hover{
+  color: #808080;
+  background: #EEEEEE;
+  transition: 0.3s;
+}
 
 .intext_link p a{
   color: #CDB76E;
@@ -313,6 +301,34 @@ display: flex;
 .textInput_label label{
   color:#626262;
 }
+
+/* for style guide */
+
+.textinput-label input:hover{
+  color: #808080;
+  background: #EEEEEE;
+  transition: 0.3s;
+}
+
+.textinput-label,.buttoninput-radio{
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.input-text{
+  border-radius: 0.35em;
+}
+
+
+
+.input-text label{
+  color:#626262;
+  margin-bottom: 30px;
+}
+
+/* for company page */
 
 .element {
   padding: 2rem;
@@ -693,16 +709,7 @@ input[type=text] {
   text-decoration: underline;
 
 }
-.textinput-label,.buttoninput-radio{
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-  display: block;
-}
 
-.input-text{
-  border-radius: 0.35em;
-}
 
 /*
   PRODUCT-ITEM -------------------
