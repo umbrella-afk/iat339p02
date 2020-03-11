@@ -32,7 +32,7 @@ header h1{
 }
 .tophead{
   width: 100%;
-  height: 65px;
+  height: 55px;
   /* background: darkgrey; */
   display:flex;
   justify-content: space-between;
@@ -43,7 +43,7 @@ header h1{
 
 .tophead-sub{
   width: 100%;
-  height: 65px;
+  height: 55px;
   /* background: darkgrey; */
   display:flex;
   justify-content: space-between;
@@ -305,16 +305,17 @@ display: flex;
 .submit_btn{
   display: inline-block;
   padding: 0.5rem;
-  margin: 0.5rem;
+  margin: 0.8rem;
   color: white;
-  background-color: #9B9B9B;
   text-decoration: none;
   cursor: pointer;
+  background-color:#D7C094;
+
 
 }
 
 .submit_btn:hover, .submit_btn:focus {
-  background-color: #808080;
+  background-color: #80745D;
 }
 
 .textInput_label{
@@ -749,7 +750,9 @@ input[type=text] {
 
 .single-product{
   /*max-width:1200px;*/
-  margin:30px;
+
+  margin-bottom: 30px;
+  padding-top: 90px;
   display:flex;
   justify-content: space-evenly;
   /*border: 1px red solid;*/
