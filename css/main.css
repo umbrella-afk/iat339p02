@@ -60,6 +60,16 @@ header h1{
   color: #D4D4D4;
 }
 
+.tophead-right a i{
+  color:#D1D1D1;
+
+}
+
+.tophead-right a i:hover{
+  color:white;
+  transition: 0.3s;
+}
+
 
 .container{
 	display: flex;
