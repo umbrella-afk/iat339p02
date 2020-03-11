@@ -342,7 +342,7 @@ display: flex;
 
 
 .img_link {
-  width: 30%;
+  width: 230px;
   position: relative;
   cursor: pointer;
   height: auto;
@@ -369,7 +369,7 @@ display: flex;
 }
 
 .img_link:hover .overlay {
-  opacity: 1;
+  opacity: 0.8;
 }
 
 .text {
