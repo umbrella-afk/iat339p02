@@ -904,3 +904,13 @@ input[type=text] {
 
 
   }
+
+  .logo{
+    text-decoration: none;
+    color: darkgrey;
+  }
+
+  .brandlogo a:hover{
+    color: grey;
+    transition: 0.3s;
+  }
