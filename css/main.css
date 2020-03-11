@@ -166,15 +166,16 @@ body {
 .product_seemore{
   padding-top: 20px;
   text-align: right;
+  text-decoration: none;
 }
 .product_seemore a{
-  color: #80745D;
+  color: white;
   font-size: 1rem;
   text-decoration: none;
 }
 
 .product_seemore a:hover{
-  color: #CDB76E;
+  color: white;
 }
 
 
@@ -369,7 +370,7 @@ display: flex;
 }
 
 .img_link:hover .overlay {
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .text {
