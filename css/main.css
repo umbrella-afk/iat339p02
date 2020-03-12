@@ -224,7 +224,6 @@ body {
   margin: auto;
   background: gray;
   padding: 20px 0px;
-
 }
 
 .footer-icons{
@@ -268,6 +267,21 @@ body {
   color: white;
 }
 
+.footer-text a{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 0.2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: white;
+  text-decoration: none;
+  color: #D7C094;
+}
+
+.footer-text a:hover{
+  color: white;
+}
 
 .contact-us input{
 display: flex;
