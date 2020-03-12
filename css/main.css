@@ -290,7 +290,8 @@ display: flex;
 }
 
 .contact-us textarea{
-  width: 40em;
+  width: 80%;
+  max-width: 40em;
   border: 1px solid #ccc;
   border-radius: 3px;
 }
