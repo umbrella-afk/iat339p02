@@ -60,6 +60,10 @@
       document.getElementById('mySidenav').style.width = "0"
     }
 
+    function changePic(fileName){
+        document.querySelector("#product-image").src="img/" + fileName
+    }
+
   </script>
 
 
@@ -464,6 +468,39 @@
                 </div>
               </div>
 
+
+      </section>
+
+      <section class="element">
+      	<h3>Product Color Choose</h3>
+        <h4>CSS selector:</h4>
+        <p>.color-choose</p>
+
+        <h4>Sample code:</h4>
+        <code>
+        	&lt;div class="color-choose"&gt;
+              &lt;button class="red" onclick="changePic('f3-red.jpg')"&gt;
+              &lt;/button&gt;
+              &lt;button class="black" onclick="changePic('f3-black.jpg')"&gt;
+              &lt;/button&gt;
+            &lt;/div>
+        </code>
+      	
+      	<h4>Rendered element:</h4>
+      	<div class="single-product">
+      	 <div class="single-product-left">
+        <img src="img/f3-red.jpg" alt="" id="product-image">
+        </div>
+        <div class="single-product-right">
+
+        <span>Color</span>
+
+            <div class="color-choose">
+              <button class="red" onclick="changePic('f3-red.jpg')"></button>
+              <button class="black" onclick="changePic('f3-black.jpg')"></button>
+            </div>
+         </div>
+        </div>
 
       </section>
 
