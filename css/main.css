@@ -215,7 +215,7 @@ body {
   margin: auto;
   background: gray;
   padding: 20px 0px;
-  
+
 }
 
 .footer-icons{
@@ -278,6 +278,10 @@ display: flex;
   transition: 0.3s;
 }
 
+
+.intext_link{
+  padding:0.3rem;
+}
 .intext_link p a{
   color: #CDB76E;
 }
