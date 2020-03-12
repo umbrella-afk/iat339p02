@@ -52,7 +52,7 @@ body{
 
 		}
 
-		@media only screen and (max-width: 33em){
+		@media only screen and (max-width: 30em){
 
 
 			#overview{
@@ -73,7 +73,7 @@ body{
 				#overview p{
 					/* color: transparent; */
 					color: #fff;
-				  font-size: 1rem;
+				  font-size: 0.8rem;
 				  position: absolute;
 				  top: 30%;
 				  left: 50%;
@@ -83,7 +83,7 @@ body{
 
 				}
 
-				@media only screen and (max-width: 480px){
+				@media only screen and (max-width: 400px){
 
 
 					#overview{
