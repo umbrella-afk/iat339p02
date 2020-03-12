@@ -82,3 +82,34 @@ body{
 				}
 
 				}
+
+				@media only screen and (max-width: 480px){
+
+
+					#overview{
+
+					  background-image: url('../img/bg.jpg');
+						background-repeat: no-repeat;
+						background-size: 40em;
+						width: 100%;
+					  height: 60vh;
+						-webkit-background-size:cover;
+					  -moz-background-size:cover;
+					  -o-background-size:cover;
+					  background-size:cover;
+					  background-position:center;
+
+					}
+
+						#overview p{
+							/* color: transparent; */
+							color: #fff;
+						  font-size: 0.8rem;
+						  position: absolute;
+						  top: 30%;
+						  left: 60%;
+						  margin-right: -50%;
+						  transform: translate(-50%, -50%);
+						}
+
+						}
