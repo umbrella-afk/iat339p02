@@ -186,6 +186,14 @@ body {
   margin-bottom: 15px;
 }
 
+.big_title{
+  color: Black;
+  font-size: 3rem;
+  text-align:center;
+  margin-top: 60px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
 #big_title p{
   color: Black;
   font-size: 3rem;
@@ -200,13 +208,13 @@ body {
   text-decoration: none;
 }
 .product_seemore a{
-  color: white;
+  color: #80745D;
   font-size: 1rem;
   text-decoration: none;
 }
 
 .product_seemore a:hover{
-  color: white;
+  color: #D7C094;
 }
 
 
@@ -1013,5 +1021,3 @@ input[type=text] {
     margin-top: 5rem;
     /* flex-direction: column; */
   }
-
- 

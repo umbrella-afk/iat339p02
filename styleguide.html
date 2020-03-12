@@ -15,7 +15,7 @@
     crossorigin="anonymous" />
 
   </head>
-
+<body>
   <header>
     <div class="tophead-sub">
         <div class="brandlogo">
@@ -33,14 +33,14 @@
 
 
 
-  <body>
+
     <!-- nav part -->
     <div class="container">
       <nav class="block navigation" id="mySidenav" >
 
             <!-- close btn -->
             <a href="javascript:void(0)" class="closebtn"
-      onclick="closeNav()"> &times;
+      onclick="closeNav()"> &times;</a>
       <!-- main menu -->
             <a href="#interactive_elements"><i class="fa fa-home" aria-hidden="true"></i> interactive elements</a>
             <a href="#combined_elements"><i class="fa fa-cubes" aria-hidden="true"></i> Combined elements</a>
@@ -321,18 +321,18 @@
         <h4>Rendered element:</h4>
         <div class="productList">
           <div class="img_link">
-            <a href="#"><img src="img/f3.png" alt="img_link"></a>
-            <a href="#"><div class="overlay">
+            <a href="#"><img src="img/f4.png" alt="img_link"></a>
+            <a href="product-item2.html">
+            <div class="overlay">
               <div class="text">See more details
-
               </div>
-
             </div></a>
           </div>
           <h3>Xi light</h3>
           <p class="price">price: 150 $</p>
           <p class="productDescription"></p>
-          <a href="checkout.html"><button class="cardBtn" type="button" name="button">Add to cart</button></a>
+          <button class="cardBtn" type="button" name="button" onclick="window.location.href = 'checkout.html';">
+            Add to cart</button>
         </div>
       </section>
 
@@ -485,7 +485,7 @@
               &lt;/button&gt;
             &lt;/div>
         </code>
-      	
+
       	<h4>Rendered element:</h4>
       	<div class="single-product">
       	 <div class="single-product-left">
@@ -646,7 +646,7 @@
     </div>
 
   </div>
-</div>
+
 
   </body>
 </html>
