@@ -555,7 +555,9 @@ display: flex;
 .paymentForm{
 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  display:block;
+  border-radius: 8px;
+  /* display:block; */
+  border: 1px solid lightgrey;
   background-color: #e1e1e1;
   padding: 0 25px 25px 25px;
 }
@@ -579,12 +581,23 @@ display: flex;
 
 .checkoutPage{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 600px;
-  margin: auto;
-  text-align: center;
+
+  /* max-width: 600px; */
+  /* margin: auto; */
+
+  /* text-align: center;
   border-radius: 8px;
   background-color: white;
-  align-items:center;
+  align-items:center; */
+
+  /* background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px; */
+
+  background-color: #e1e1e1;
+  padding: 0 25px 25px 25px;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  width:100%;
 }
 
 
@@ -596,17 +609,22 @@ display: flex;
 }
 
 .cartProduct{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  display: block;
-  background-color: white;
-  padding: 5px 25px 25px 25px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  /* display: block; */
+  /* background-color: white; */
+  /* background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px; */
+
+  background-color: #e1e1e1;
+  padding: 0 25px 25px 25px;
+
   width: auto;
   margin-top: 0;
-  max-width: 600px;
+
 
   border-top-width: 0.1rem;
   border-top-style: solid;
-  border-top-color: darkgray;
+  border-top-color: lightgrey;
   margin:0 auto;
 }
 
@@ -723,14 +741,16 @@ code {
 
 
 
-.container-payment {
-  background-color: #f2f2f2;
-  padding: 5px 20px 15px 20px;
+/* .container-payment { */
+  /* background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px; */
+  /* background-color: #e1e1e1;
+  padding: 0 25px 25px 25px;
   border: 1px solid lightgrey;
-  border-radius: 3px;
-  width:70%;
+  border-radius: 8px;
+  width:80%;
   margin:0 auto;
-}
+} */
 
 .cart{
   margin: 0 auto;
@@ -972,4 +992,21 @@ input[type=text] {
   .brandlogo a:hover{
     color: white;
     transition: 0.3s;
+  }
+
+  .left-half{
+    flex:1;
+    padding:1rem;
+    margin-left: 2rem;
+    margin-top: 5rem;
+    /* background-color: red; */
+    /* flex-direction: column; */
+  }
+
+  .right-half{
+    flex:1.2;
+    padding:1rem;
+    margin-right: 2rem;
+    margin-top: 5rem;
+    /* flex-direction: column; */
   }
